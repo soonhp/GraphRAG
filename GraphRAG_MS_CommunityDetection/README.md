@@ -1,4 +1,4 @@
-# Implementing Microsoft GraphRAG in Neo4j(GoRAG)
+# Implementing Microsoft GraphRAG in Neo4j(GraphRAG)
 
 ## 1. DATA LOAD 
 ### source code : database_generate.py, data_load.py, community_summary.py
