@@ -38,7 +38,7 @@ python community_summary.py --level1 [int] --level2 [int] --level3 [int]
 ### Details
 > [1. DATA LOAD](#1-data-load)를 통해 구성된 커뮤니티를 활용하여 어떻게 Retrieval을 할 지에 대한 내용이 담겨있습니다. Local과 Global로 나누어서 Retrieval이 진행되고 두 방식의 아키텍쳐가 다르니 직접 들어가서 확인해보시면 될 것 같습니다.
 >    
-> ms_graphrag\_"company"\_import.ipynb 와 ms_graphrag\_"company"\_retriever.ipynb 를 활용하여 비정형 PDF 예시 문서를 'graphrag-doc-02-ms' 에 적재하였으니 참고바랍니다.
+> ms_graphrag_import.ipynb 와 ms_graphrag_retriever.ipynb 를 활용하여 비정형 PDF 예시 문서를 'graphrag-doc-02-ms' 에 적재하였으니 참고바랍니다.
 >
 ### How to Run Files
 1. Retrieval & Answer Generation
@@ -52,11 +52,11 @@ python retrieval.py --index_name [vector_index_name] --question [query]
    참고로 Retrieval & Answer Generation 방식은 아래 그림의 Local retriever로 답변 생성함.
    
 ### Local retriever
-![Alt text](https://camo.githubusercontent.com/6471ff22f7f8e5565d1e54e2e99aa1e7b5d7833c13607238b5c548daa31f2ba7/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a6c496e5636575754445859455649314e53334b5639672e706e67)
+![Alt text](https://miro.medium.com/v2/resize:fit:720/format:webp/1*lInV6WWTDXYEVI1NS3KV9g.png)
    
    
 ### Global retriever
-![Alt text](https://camo.githubusercontent.com/984e77be2a8f2022616817fedd472c936bbcb4dad631478b4131cfd5292628d2/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a6d63444e444d546d43715641557631536e7a54747a412e706e67)
+![Alt text](https://miro.medium.com/v2/resize:fit:720/format:webp/1*mcDNDMTmCqVAUv1SnzTtzA.png)
    
 ## Reference
 [1. DATA LOAD](#1-data-load) : [Implementing ‘From Local to Global’ GraphRAG with Neo4j and LangChain: Constructing the Graph](https://neo4j.com/developer-blog/global-graphrag-neo4j-langchain/)
