@@ -5,7 +5,7 @@
    
 ### Details
    
-> 주요 내용은 [LLMGraphTransformer](https://api.python.langchain.com/en/latest/graph_transformers/langchain_experimental.graph_transformers.llm.LLMGraphTransformer.html) 라이브러리를 활용하여 entity와 relation을 추출하고 이후에 entity 노드 id 혹은 discription의 텍스트 임베딩 값을 neo4j gds라이브러리의 [KNN](https://neo4j.com/docs/graph-data-science/current/algorithms/knn/)과 [WCC(Weakly Connected Components)](https://neo4j.com/docs/graph-data-science/current/algorithms/wcc/)를 활용하여 유사한 엔티티는 병합을 해주고 [Leiden](https://neo4j.com/docs/graph-data-science/current/algorithms/leiden/?utm_source=Google&utm_medium=PaidSearch&utm_campaign=Evergreen&utm_content=EMEA-Search-SEMCE-DSA-None-SEM-SEM-NonABM&utm_term=&utm_adgroup=DSA&gad_source=1&gclid=CjwKCAjwoJa2BhBPEiwA0l0ImNw6uRa44y_xG9LdbkIO9r_NjjE_Mhy_D6nAmR3Tql32YS-FJkVJpBoCw0MQAvD_BwE) 알고리즘으로 커뮤니티를 구성합니다. 
+> Microsoft사에서 발표한 Community Detection을 활용한 GraphRAG 방법론을 Neo4j(Graph Database)를 통해 구현하여 모듈화하였습니다. 주요 내용은 [LLMGraphTransformer](https://api.python.langchain.com/en/latest/graph_transformers/langchain_experimental.graph_transformers.llm.LLMGraphTransformer.html) 라이브러리를 활용하여 entity와 relation을 추출하고 이후에 entity 노드 id 혹은 discription의 텍스트 임베딩 값을 neo4j gds라이브러리의 [KNN](https://neo4j.com/docs/graph-data-science/current/algorithms/knn/)과 [WCC(Weakly Connected Components)](https://neo4j.com/docs/graph-data-science/current/algorithms/wcc/)를 활용하여 유사한 엔티티는 병합을 해주고 [Leiden](https://neo4j.com/docs/graph-data-science/current/algorithms/leiden/?utm_source=Google&utm_medium=PaidSearch&utm_campaign=Evergreen&utm_content=EMEA-Search-SEMCE-DSA-None-SEM-SEM-NonABM&utm_term=&utm_adgroup=DSA&gad_source=1&gclid=CjwKCAjwoJa2BhBPEiwA0l0ImNw6uRa44y_xG9LdbkIO9r_NjjE_Mhy_D6nAmR3Tql32YS-FJkVJpBoCw0MQAvD_BwE) 알고리즘으로 커뮤니티를 구성합니다. 
 >
    
 ### How to Run Files
